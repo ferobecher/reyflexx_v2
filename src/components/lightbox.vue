@@ -7,7 +7,7 @@
   const src = ref('');
 
   const setSrc = () => {
-    src.value = `./src/assets/icons/${store.currentSluzba.name}/${store.index}.JPEG`;
+    src.value = `/images/${store.currentSluzba.name}/${store.index}.JPEG`;
   };
 
   watch(()=> [store.index, store.currentSluzba], setSrc, {immediate: true});

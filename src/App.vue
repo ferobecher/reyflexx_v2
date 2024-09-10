@@ -15,7 +15,7 @@ const showNav = ref(false);
           <RouterLink :to="{ path: '/', hash: '#domov' }" >DOMOV</RouterLink>
           <RouterLink :to="{ path: '/', hash: '#onas' }">O NÁS</RouterLink>
           <a href="/">
-            <img class="logo" src="@\assets\icons\logo.png">
+            <img class="logo" src="/images/logo.png">
           </a>
           <RouterLink :to="{ path: '/', hash: '#sluzby' }">SLUŽBY</RouterLink>
           <RouterLink :to="{ path: '/', hash: '#kontakt' }">KONTAKT</RouterLink>
@@ -24,11 +24,11 @@ const showNav = ref(false);
       <div v-else>
           <div class="navbar">
             <a href="/">
-              <img class="logo" src="@\assets\icons\logo.png">
+              <img class="logo" src="/images/logo.png">
             </a>
           </div>
           <div class="hamburger-div">
-            <img @click="showNav = !showNav" class="hamburger" src="@\assets\icons\hamburger.png">
+            <img @click="showNav = !showNav" class="hamburger" src="/images/hamburger.png">
           </div>
           <nav v-if="showNav" >
               <RouterLink :to="{ path: '/', hash: '#domov' }" >DOMOV</RouterLink>

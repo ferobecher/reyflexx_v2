@@ -18,7 +18,7 @@ export default {
                 message: this.message,
             };
             axios
-                .post('http://localhost:3000/api/submit-form', formData)
+                .post('reyflexxv2-server-production.up.railway.app/api/submit-form', formData)
                 .then((response) => {
                 console.log('Server Response:', response.data);
                 this.showSuccessMessage = true;

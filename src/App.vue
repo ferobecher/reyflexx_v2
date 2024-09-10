@@ -43,6 +43,10 @@ const showNav = ref(false);
 </template> 
 
 <style>
+header {
+  z-index: 50;
+  padding-bottom: 15vh;
+}
 /* mobile responsive */
 .hamburger-div {
   position: absolute;

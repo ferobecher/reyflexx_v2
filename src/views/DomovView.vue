@@ -130,8 +130,8 @@ import Sluzby from "@/components/sluzby.vue"
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 100vh;
-  min-height:100vh;
+  height: 80vh;
+  min-height:80vh;
   text-align: center;
   justify-content: center;
   align-items: center;
